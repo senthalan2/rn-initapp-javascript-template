@@ -5,13 +5,13 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   ### Set SplashScreen Image
   #### Android
   
-    1. Go to ```android/app/src/main/res/drawable```, put splash image (.png) in this directory and named it as ```launch_screen```.
+  1. Go to ```android/app/src/main/res/drawable```, put splash image (.png) in this directory and named it as ```launch_screen```.
   
-    2. Change code in ```android/app/src/main/res/layout/launch_screen.xml``` file.
+  2. Change code in ```android/app/src/main/res/layout/launch_screen.xml``` file.
     
   #### IOS
   
-  Open XCode, Under your Project, Select ```Images``` and Select ```splash_image```. Create three different sizes of your image (@1x, @2x, @3x) and           add the images by dragging them into the slots for 1x, 2x, 3x ( shown in below image ).
+  1. Open XCode, Under your Project, Select ```Images``` and Select ```splash_image```. Create three different sizes of your image (@1x, @2x, @3x) and           add the images by dragging them into the slots for 1x, 2x, 3x ( shown in below image ).
     
   ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160120112-fff17229-bc32-44c3-889b-3fe061e39a03.png)
  
