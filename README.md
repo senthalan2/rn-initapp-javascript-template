@@ -11,6 +11,6 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
     
   #### IOS
   
-  open Xcode and open ```LauchScreen``` shown as below and Edit ```LauchScreen``` according to the splashscreen design.
+  open Xcode and go to ```LauchScreen``` shown as below, It acts as a Splashscreen for IOS. Edit this design according to your need.
   
 ![IOS SplashScreen](https://user-images.githubusercontent.com/43330632/160114408-70765700-d6df-445a-9b7c-2928effaa03b.png)
