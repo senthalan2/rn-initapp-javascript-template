@@ -15,6 +15,9 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
     
   ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160120112-fff17229-bc32-44c3-889b-3fe061e39a03.png)
  
-  
+  2. To change Background Color, Select ```LaunchScreen``` Select ```View``` and choose background Color ( shown in below image).
+
+  ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160122109-c726df53-0287-473f-8dc2-dc4446eae6bf.png)
+
 
 
