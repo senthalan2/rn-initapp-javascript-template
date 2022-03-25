@@ -4,6 +4,6 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 ## Steps after Project Initialization
   ### Set SplashScreen Image
   
-    1. Go to ```android -> app -> src -> main -> res -> drawable```, put splash image (.png) in this directory and named it as ```launch_screen```.
+    1. Go to ```android/app/src/main/res/drawable```, put splash image (.png) in this directory and named it as ```launch_screen```.
   
-    2. Change code in ```android -> app -> src ->main -> res -> layout -> launch_screen.xml``` file.
+    2. Change code in ```android/app/src/main/res/layout/launch_screen.xml``` file.
