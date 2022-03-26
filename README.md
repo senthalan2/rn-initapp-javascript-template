@@ -18,6 +18,20 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
 
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160223118-1cae4ad5-318c-4e7c-8d70-3adff6e3f72c.png)
+  
+  ### 1. Set Custom Fonts
+  
+  Drop the custom font family files (.ttf) into the ```assets/fonts``` directory under your project root directory ( shown in below image ).
+  
+  ![Screenshot 3](https://user-images.githubusercontent.com/43330632/160223350-21284c7a-adfb-4411-9f85-da93c7833693.png)
+  
+  After the above step, run the below command to link the assets with android and ios.
+  
+  `npm link`
+  
+  
+
+  
 
 
 
