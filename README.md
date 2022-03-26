@@ -12,8 +12,6 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   2. Change code in ```android/app/src/main/res/layout/launch_screen.xml``` file.
 
   ![Screenshot Android 2](https://user-images.githubusercontent.com/43330632/160225192-fc635d99-94b6-417c-9d33-fae9ac83d27a.png) 
-
-  
     
   #### IOS
   
@@ -23,7 +21,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
  
   2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
 
-  ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160223118-1cae4ad5-318c-4e7c-8d70-3adff6e3f72c.png)
+  ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160225900-4c93c7f1-a96b-499c-893b-315569d6c25c.png)
   
   ### 2. Set Custom Fonts
   
