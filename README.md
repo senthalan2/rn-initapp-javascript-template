@@ -1,6 +1,14 @@
 # rn-initapp-javascript-template
 This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Text Box, Custom Font Family,  Redux, Axios, Reanimated for Animations, SVG Setup, Intro Screens Setup, Stack navigations, Tab and Custom Drawer Navigations Setup. Typescript is installed in this template ( optional ).
 
+## Installation
+
+### From NPM
+  npx react-native init ProjectName --template rn-initapp-javascript-template
+
+### From Github
+  npx react-native init ProjectName --template https://github.com/senthalan2/rn-initapp-javascript-template.git
+
 ## Steps after Project Initialization
   ### 1. Set SplashScreen Image
   #### Android
