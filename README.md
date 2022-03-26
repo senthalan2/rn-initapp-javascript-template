@@ -2,7 +2,7 @@
 This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Text Box, Custom Font Family,  Redux, Axios, Reanimated for Animations, SVG Setup, Intro Screens, Login Screen, Stack navigations, Tab and Custom Drawer Navigations Setup. Typescript is installed in this template ( optional ).
 
 ## Steps after Project Initialization
-  ### Set SplashScreen Image
+  ### 1. Set SplashScreen Image
   #### Android
   
   1. Go to ```android/app/src/main/res/drawable```, put splash image (.png) in this directory and named it as ```launch_screen```.
