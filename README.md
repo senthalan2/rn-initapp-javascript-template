@@ -31,6 +31,15 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   Custom Fonts Setup Completed. Run your project.
   
+  #### Usage of Custom Font Families
+  
+  Add the Font family name in ```Src/Utilities/GlobalFonts.js``` ( Refer below image ).
+  
+  ![Screenshot 4](https://user-images.githubusercontent.com/43330632/160224862-a9bb483c-e956-4387-b0cd-c25ab8f58a0a.png)
+
+  Import and Use the fonts wherever you want. ( Refer below image ).
+  
+  ![Screenshot 5](https://user-images.githubusercontent.com/43330632/160224909-5671a677-8dda-4e87-9b1a-10e62fb0eb50.png)
 
   
 
