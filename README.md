@@ -4,10 +4,10 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 ## Installation
 
 ### From NPM
-  npx react-native init ProjectName --template rn-initapp-javascript-template
+    npx react-native init ProjectName --template rn-initapp-javascript-template
 
 ### From Github
-  npx react-native init ProjectName --template https://github.com/senthalan2/rn-initapp-javascript-template.git
+    npx react-native init ProjectName --template https://github.com/senthalan2/rn-initapp-javascript-template.git
 
 ## Steps after Project Initialization
   ### 1. Set SplashScreen Image
