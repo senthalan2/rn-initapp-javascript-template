@@ -27,8 +27,9 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   After the above step, run the below command to link the assets with android and ios.
   
-    npm link
+    npx react-native link
   
+  After Link resources, run your project.
   
 
   
