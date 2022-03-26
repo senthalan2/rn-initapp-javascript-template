@@ -41,7 +41,7 @@ const Intro = () => {
   const renderIntroScreens = ({item}) => {
     return (
       <View style={styles.introScreensItemContainer}>
-        <Text>{item.text}</Text>
+        <Text style={{color: COLORS.black}}>{item.text}</Text>
       </View>
     );
   };
@@ -53,7 +53,7 @@ const Intro = () => {
         onPress={() => {
           dispatch(setisSeenIntro(true));
         }}>
-        <Text>SKIP</Text>
+        <Text style={{color: COLORS.black}}>SKIP</Text>
       </TouchableOpacity>
       <Animated.FlatList
         data={INTROSCREENS}

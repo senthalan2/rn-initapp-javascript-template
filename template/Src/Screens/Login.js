@@ -21,7 +21,7 @@ const Login = () => {
       behavior={IS_IOS ? 'padding' : null}>
       <View style={styles.contentContainer}>
         <View style={styles.loginImage}>
-          <Text>Logo</Text>
+          <Text style={{color: COLORS.black}}>Logo</Text>
         </View>
         <TextBox
           title="UserName"
@@ -37,7 +37,7 @@ const Login = () => {
           onPressShowPassword={() => setisEnableSecure(pre => !pre)}
         />
         <TouchableOpacity style={styles.forgotPassword}>
-          <Text>Forgot Password?</Text>
+          <Text style={{color: COLORS.black}}>Forgot Password?</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.loginButton}

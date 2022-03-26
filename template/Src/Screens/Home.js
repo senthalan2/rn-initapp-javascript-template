@@ -3,6 +3,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import CustomHeader from '../Components/CustomHeader';
 import {COLORS} from '../Utilities/Constants';
+import {UBUNTU} from '../Utilities/GlobalFonts';
 
 const Home = () => {
   const navigation = useNavigation();
@@ -18,7 +19,14 @@ const Home = () => {
           navigation.openDrawer();
         }}
       />
-      <Text style={{alignSelf: 'center'}}>Home Screen</Text>
+      <Text
+        style={{
+          alignSelf: 'center',
+          fontFamily: UBUNTU[0],
+          color: COLORS.black,
+        }}>
+        Home Screen
+      </Text>
     </View>
   );
 };
