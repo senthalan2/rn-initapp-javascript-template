@@ -19,7 +19,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160223118-1cae4ad5-318c-4e7c-8d70-3adff6e3f72c.png)
   
-  ### 1. Set Custom Fonts
+  ### 2. Set Custom Fonts
   
   Drop the custom font family files (.ttf) into the ```assets/fonts``` directory under your project root directory ( shown in below image ).
   
