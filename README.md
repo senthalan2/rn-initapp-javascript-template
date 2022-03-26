@@ -29,7 +29,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
     npx react-native link
   
-  After Link resources, run your project.
+  Custom Fonts Setup Completed. Run your project.
   
 
   
