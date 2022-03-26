@@ -39,7 +39,8 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 
   Import and Use the fonts wherever you want. ( Refer below image ).
   
-  ![Screenshot 5](https://user-images.githubusercontent.com/43330632/160224909-5671a677-8dda-4e87-9b1a-10e62fb0eb50.png)
+  ![Screenshot 5](https://user-images.githubusercontent.com/43330632/160224962-3ac80311-acf7-4917-a752-56faf3776a4e.png)
+
 
   
 
