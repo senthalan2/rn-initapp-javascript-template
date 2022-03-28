@@ -34,7 +34,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
     
        npx react-native generate-bootsplash <logoPath> --logo-width=<width>
   
-  (e.g) npx react-native generate-bootsplash Src/Assets/splash_image.png --logo-width=150
+  (e.g) ```npx react-native generate-bootsplash Src/Assets/splash_image.png --logo-width=150```
   Refer [react-native-bootsplash](https://www.npmjs.com/package/react-native-bootsplash)
   
     
