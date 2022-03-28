@@ -45,7 +45,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   #### IOS
   
-  In IOS needed some additional steps,
+  In IOS, needed some additional steps,
   
   1. Bootsplash command generated three different sizes (@1x, @2x, @3x) of the Splash Image ( shown in below image ).
  
