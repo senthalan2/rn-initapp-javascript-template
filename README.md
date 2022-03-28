@@ -28,17 +28,25 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 
 ## Steps after Project Initialization
   ### 1. Set SplashScreen Image
-  #### Android
   
   Run Following ```react-native-bootsplash``` Command to generate Splash Image.
     
-       npx react-native generate-bootsplash <logoPath> --logo-width=<width>
+       npx react-native generate-bootsplash <logoPath> --logo-width=<width> --background-color=<BackgroundColor>
   
-  (e.g) ```npx react-native generate-bootsplash Src/Assets/splash_image.png --logo-width=150```
+  (e.g) ```npx react-native generate-bootsplash Src/Assets/splash_image.png --logo-width=150 --background-color=FFFFFF```
+  
+  note:```background color is optional. Default Background Color is #FFFFFF. We can also run the above command without background-color```.
+  
   Refer [react-native-bootsplash](https://www.npmjs.com/package/react-native-bootsplash)
   
-    
+  #### Android
+  
+  In Android, Bootsplash Command generated the all assets required for splashscreen, and this template have bootsplash setup for android. So, No           additional Steps needed for Android.
+  
   #### IOS
+  
+  In IOS needed some additional steps,
+  
   1. Bootsplash command generated three different sizes (@1x, @2x, @3x) of the Splash Image ( shown in below image ).
  
   ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160339614-f1b148d7-601d-490e-a778-b92b7fb46f06.png)
@@ -58,6 +66,8 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
 
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160225900-4c93c7f1-a96b-499c-893b-315569d6c25c.png)
+  
+  note: ```Edit the LaunchScreen as per your need. After edited the LaunchScreen, make sure that the above steps are solved```.
   
   ### 2. Set Custom Fonts
   
