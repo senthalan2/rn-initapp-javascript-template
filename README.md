@@ -47,14 +47,13 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160341018-b1071616-8380-4cfb-863f-705e392e0db8.png)
 
-  3. Go to Size Inspector and choose a width and a height that looks good (this will scale to other screen sizes).
+  3. Go to ```Size Inspector``` and choose a width and a height that looks good (this will scale to other screen sizes).
   
   4. Drag your image into the center of the screen until you see both a horizontal and vertical blue line.
   
-  5. Lastly, under Autoresizing change the window with the arrows, so it looks like in the screenshot below. All outer arrows should be deselected and        all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
+  5. under Autoresizing change the window with the arrows, make sure, it looks like in the below Image. All outer arrows should be deselected and           all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
 
   ![Screenshot 2.1](https://user-images.githubusercontent.com/43330632/160342037-b1dba55f-3064-4e72-8427-6511f46b165b.png)
-
  
   2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
 
