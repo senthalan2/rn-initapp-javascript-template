@@ -3,7 +3,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 
 ## In-Built Packages
 
-#### 1.  [react-native-splash-screen](https://www.npmjs.com/package/react-native-splash-screen)
+#### 1.  [react-native-bootsplash](https://www.npmjs.com/package/react-native-bootsplash)
 #### 2.  [react-native-svg](https://www.npmjs.com/package/react-native-svg)
 #### 3.  [react-native-svg-transformer](https://www.npmjs.com/package/react-native-svg-transformer)
 #### 4.  [react-redux](https://www.npmjs.com/package/react-redux)
@@ -30,13 +30,13 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   ### 1. Set SplashScreen Image
   #### Android
   
-  1. Go to ```android/app/src/main/res/drawable```, put splash image (.png) in this directory and named it as ```launch_screen``` ( Refer below Image ).
+  Run Following ```react-native-bootsplash``` Command to generate Splash Image.
+    
+       npx react-native generate-bootsplash <logoPath> --logo-width=<width>
   
-  ![Screenshot Android 1](https://user-images.githubusercontent.com/43330632/160225100-59d14ece-71cc-4467-9ad9-c62bd4db3c19.png)
-
-  2. Change code in ```android/app/src/main/res/layout/launch_screen.xml``` file.
-
-  ![Screenshot Android 2](https://user-images.githubusercontent.com/43330632/160225192-fc635d99-94b6-417c-9d33-fae9ac83d27a.png) 
+  (e.g) npx react-native generate-bootsplash Src/Assets/splash_image.png --logo-width=150
+  Refer [react-native-bootsplash](https://www.npmjs.com/package/react-native-bootsplash)
+  
     
   #### IOS
   
