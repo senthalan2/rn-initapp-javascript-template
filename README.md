@@ -3,7 +3,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 
 ## In-Built Packages
 
-#### 1.  [react-native-splash-screen](https://www.npmjs.com/package/react-native-splash-screen)
+#### 1.  [react-native-bootsplash](https://www.npmjs.com/package/react-native-bootsplash)
 #### 2.  [react-native-svg](https://www.npmjs.com/package/react-native-svg)
 #### 3.  [react-native-svg-transformer](https://www.npmjs.com/package/react-native-svg-transformer)
 #### 4.  [react-redux](https://www.npmjs.com/package/react-redux)
@@ -28,25 +28,46 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
 
 ## Steps after Project Initialization
   ### 1. Set SplashScreen Image
+  
+  Run Following ```react-native-bootsplash``` Command to generate Splash Image.
+    
+       npx react-native generate-bootsplash <logoPath> --logo-width=<width> --background-color=<BackgroundColor>
+  
+  (e.g) ```npx react-native generate-bootsplash Src/Assets/splash_image.png --logo-width=150 --background-color=FFFFFF```
+  
+  note:```background color is optional. Default Background Color is #FFFFFF. We can also run the above command without background-color```.
+  
+  Refer [react-native-bootsplash](https://www.npmjs.com/package/react-native-bootsplash)
+  
   #### Android
   
-  1. Go to ```android/app/src/main/res/drawable```, put splash image (.png) in this directory and named it as ```launch_screen``` ( Refer below Image ).
+  In Android, Bootsplash Command generated the all assets required for splashscreen, and this template have bootsplash setup for android. So, No           additional steps needed for Android.
   
-  ![Screenshot Android 1](https://user-images.githubusercontent.com/43330632/160225100-59d14ece-71cc-4467-9ad9-c62bd4db3c19.png)
-
-  2. Change code in ```android/app/src/main/res/layout/launch_screen.xml``` file.
-
-  ![Screenshot Android 2](https://user-images.githubusercontent.com/43330632/160225192-fc635d99-94b6-417c-9d33-fae9ac83d27a.png) 
-    
   #### IOS
   
-  1. Open XCode, Under your Project, Select ```Images``` and Select ```splash_image```. Create three different sizes of your image (@1x, @2x, @3x) and           add the images by dragging them into the slots for 1x, 2x, 3x ( shown in below image ).
-    
-  ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160120112-fff17229-bc32-44c3-889b-3fe061e39a03.png)
+  In IOS, needed some additional steps,
+  
+  1. Bootsplash command generated three different sizes (@1x, @2x, @3x) of the Splash Image ( shown in below image ).
  
-  2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
+  ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160339614-f1b148d7-601d-490e-a778-b92b7fb46f06.png)
+
+  2. Now Open XCode, Under your Project, select ```LaunchScreen``` and select ```BootSplashLogo``` ( Splash Image ). In the right panel choose                ```Attributes Inspector -> View -> Content Mode -> Aspect Fit```. ( Refer Below Image )
+  
+  ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160341018-b1071616-8380-4cfb-863f-705e392e0db8.png)
+
+  3. Go to ```Size Inspector``` and choose a width and a height that looks good (this will scale to other screen sizes).
+  
+  4. Drag your image into the center of the screen until you see both a horizontal and vertical blue line.
+  
+  5. After that, under ```Autoresizing``` change the window with the arrows, make sure, it looks like in the below Image. All outer arrows should be deselected   and all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
+
+  ![Screenshot 2.1](https://user-images.githubusercontent.com/43330632/160342037-b1dba55f-3064-4e72-8427-6511f46b165b.png)
+ 
+  2. To change Background Color, select ```LaunchScreen``` select ```View``` under ```View``` and choose background Color ( shown in below image).
 
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160225900-4c93c7f1-a96b-499c-893b-315569d6c25c.png)
+  
+  note: ```Edit the LaunchScreen as per your need. After edited the LaunchScreen, make sure that the above steps are solved```.
   
   ### 2. Set Custom Fonts
   
