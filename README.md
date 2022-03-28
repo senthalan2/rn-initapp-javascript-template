@@ -39,10 +39,22 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
     
   #### IOS
+  1. Bootsplash command generated three different sizes (@1x, @2x, @3x) of the Splash Image ( shown in below image ).
+ 
+  ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160339614-f1b148d7-601d-490e-a778-b92b7fb46f06.png)
+
+  2. Now Open XCode, Under your Project, Select ```LaunchScreen``` and Select ```BootSplashLogo``` ( Splash Image ). In the right panel choose                ```Attributes Inspector -> View -> Content Mode -> Aspect Fit```. ( Refer Below Image )
   
-  1. Open XCode, Under your Project, Select ```Images``` and Select ```splash_image```. Create three different sizes of your image (@1x, @2x, @3x) and           add the images by dragging them into the slots for 1x, 2x, 3x ( shown in below image ).
-    
-  ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160120112-fff17229-bc32-44c3-889b-3fe061e39a03.png)
+  ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160341018-b1071616-8380-4cfb-863f-705e392e0db8.png)
+
+  3. Go to Size Inspector and choose a width and a height that looks good (this will scale to other screen sizes).
+  
+  4. Drag your image into the center of the screen until you see both a horizontal and vertical blue line.
+  
+  5. Lastly, under Autoresizing change the window with the arrows, so it looks like in the screenshot below. All outer arrows should be deselected and        all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
+
+  ![Screenshot 2.1](https://user-images.githubusercontent.com/43330632/160342037-b1dba55f-3064-4e72-8427-6511f46b165b.png)
+
  
   2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
 
