@@ -41,7 +41,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   #### Android
   
-  In Android, Bootsplash Command generated the all assets required for splashscreen, and this template have bootsplash setup for android. So, No           additional Steps needed for Android.
+  In Android, Bootsplash Command generated the all assets required for splashscreen, and this template have bootsplash setup for android. So, No           additional steps needed for Android.
   
   #### IOS
   
@@ -51,7 +51,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
  
   ![Screenshot 1](https://user-images.githubusercontent.com/43330632/160339614-f1b148d7-601d-490e-a778-b92b7fb46f06.png)
 
-  2. Now Open XCode, Under your Project, Select ```LaunchScreen``` and Select ```BootSplashLogo``` ( Splash Image ). In the right panel choose                ```Attributes Inspector -> View -> Content Mode -> Aspect Fit```. ( Refer Below Image )
+  2. Now Open XCode, Under your Project, select ```LaunchScreen``` and select ```BootSplashLogo``` ( Splash Image ). In the right panel choose                ```Attributes Inspector -> View -> Content Mode -> Aspect Fit```. ( Refer Below Image )
   
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160341018-b1071616-8380-4cfb-863f-705e392e0db8.png)
 
@@ -59,11 +59,11 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   4. Drag your image into the center of the screen until you see both a horizontal and vertical blue line.
   
-  5. After that, under Autoresizing change the window with the arrows, make sure, it looks like in the below Image. All outer arrows should be deselected   and all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
+  5. After that, under ```Autoresizing``` change the window with the arrows, make sure, it looks like in the below Image. All outer arrows should be deselected   and all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
 
   ![Screenshot 2.1](https://user-images.githubusercontent.com/43330632/160342037-b1dba55f-3064-4e72-8427-6511f46b165b.png)
  
-  2. To change Background Color, Select ```LaunchScreen``` Select ```View``` under ```View``` and choose background Color ( shown in below image).
+  2. To change Background Color, select ```LaunchScreen``` select ```View``` under ```View``` and choose background Color ( shown in below image).
 
   ![Screenshot 2](https://user-images.githubusercontent.com/43330632/160225900-4c93c7f1-a96b-499c-893b-315569d6c25c.png)
   
