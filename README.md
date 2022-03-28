@@ -51,7 +51,7 @@ This Template includes SplashScreen, Custom Statusbar, Custom Header, Custom Tex
   
   4. Drag your image into the center of the screen until you see both a horizontal and vertical blue line.
   
-  5. under Autoresizing change the window with the arrows, make sure, it looks like in the below Image. All outer arrows should be deselected and           all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
+  5. After that, under Autoresizing change the window with the arrows, make sure, it looks like in the below Image. All outer arrows should be deselected   and all inner arrows selected. ( Refer Below Image for Step 3, Step 4 and Step 5 ).
 
   ![Screenshot 2.1](https://user-images.githubusercontent.com/43330632/160342037-b1dba55f-3064-4e72-8427-6511f46b165b.png)
  
